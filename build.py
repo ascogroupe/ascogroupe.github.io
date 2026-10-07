@@ -32,6 +32,8 @@ def build():
             "pillars": page.get("pillars"),
             "cat_nav": page.get("cat_nav"),
             "solid_header": page["template"] != "home",
+            "og_url": C.SITE_URL + page["slug"],
+            "og_image": C.SITE_URL + "assets/img/brand/og-image.jpg",
         }
         html = tpl.render(**ctx)
         out_path = os.path.join(ROOT, page["slug"])

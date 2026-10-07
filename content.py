@@ -1,5 +1,8 @@
 """Content data for the ASCO Groupe site. Consumed by build.py."""
 
+SITE_URL = "https://fresnelbusiness.github.io/asco-groupe/"
+
+
 def IMG(cat, name):
     return f"assets/img/{cat}/{name}"
 
@@ -142,6 +145,23 @@ add({
             ],
         },
         {
+            "type": "gallery", "id": "realisations",
+            "eyebrow": "Nos réalisations",
+            "title": "Un aperçu de <span>nos chantiers</span>",
+            "lead": "Menuiserie aluminium, automatisation et contrôle d'accès : quelques exemples représentatifs de nos réalisations, toutes catégories confondues.",
+            "images": [
+                {"src": IMG("menuiserie", "facade3.jpg"), "alt": "Façade en menuiserie aluminium"},
+                {"src": IMG("automatisation", "portailcoulissant.jpg"), "alt": "Portail coulissant automatisé"},
+                {"src": IMG("solutions-acces", "sol-access-7-.jpg"), "alt": "Solution d'accès hôtelière"},
+                {"src": IMG("automatisation", "portailabattant.jpg"), "alt": "Portail à battant automatisé"},
+                {"src": IMG("menuiserie", "vitrage1.jpg"), "alt": "Vitrage aluminium sur-mesure"},
+                {"src": IMG("coffre-fort", "coffre-fort5.jpg"), "alt": "Coffre-fort électronique"},
+                {"src": IMG("automatisation", "bornes-escamotables2.jpg"), "alt": "Borne escamotable"},
+                {"src": IMG("solutions-acces", "sol-access-3-.jpg"), "alt": "Contrôle d'accès véhicules"},
+            ],
+            "big_indexes": [0],
+        },
+        {
             "type": "timeline", "id": "services-home",
             "eyebrow": "Nos services",
             "title": "Un accompagnement <span>de bout en bout</span>",
@@ -158,6 +178,7 @@ add({
             "eyebrow": "Ils nous font confiance",
             "title": "Des références dans toute <span>l'Afrique</span>",
             "lead": "Entreprises, banques, hôtels et grands groupes nous confient la sécurité et le confort de leurs sites depuis de nombreuses années.",
+            "rating": {"href": SITE["maps_link"], "text": "5,0 sur Google · avis vérifiés"},
             "logos": CLIENT_LOGOS,
             "more": CLIENTS_MORE,
         },

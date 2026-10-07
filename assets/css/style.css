@@ -719,6 +719,17 @@ h2.section-title span { color: var(--c-primary); }
 .clients-more {
   margin-top: 28px; text-align: center; color: var(--c-slate); font-size: 0.9rem; line-height: 1.7;
 }
+.rating-badge {
+  display: flex; align-items: center; gap: 10px;
+  width: fit-content; margin: 0 auto 32px;
+  padding: 12px 22px; border-radius: var(--radius-pill);
+  background: #fff; border: 1.5px solid var(--c-border); box-shadow: var(--shadow-sm);
+  font-weight: 600; font-size: 0.88rem; color: var(--c-navy-dark);
+  transition: transform .25s var(--ease), box-shadow .25s ease;
+}
+.rating-badge:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.rating-stars { color: #f5a623; letter-spacing: 1px; font-size: 0.95rem; }
+.rating-badge svg { width: 14px; height: 14px; color: var(--c-primary); }
 
 /* CTA banner */
 .cta-banner {

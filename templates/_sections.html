@@ -154,6 +154,13 @@
 
 {% macro _clients(s, base) %}
 {{ _head(s) }}
+{% if s.rating %}
+<a class="rating-badge" href="{{ s.rating.href }}" target="_blank" rel="noopener" data-reveal>
+  <span class="rating-stars">★★★★★</span>
+  <span>{{ s.rating.text }}</span>
+  {{ icon('arrow') }}
+</a>
+{% endif %}
 <div class="clients-strip" data-reveal>
   {% for l in s.logos %}
   <div class="client-logo" data-name="{{ l.name }}">
