@@ -12,7 +12,7 @@ SITE = {
     "fax_display": "+229 21 37 74 70",
     "email": "info@asco-groupe.com",
     "whatsapp": "22890229999",
-    "address_line1": "Ilot 6220, Parcelle N — 3è rue après carrefour Abattoir (Route de Porto-Novo)",
+    "address_line1": "Ilot 6220, Parcelle N, 3è rue après carrefour Abattoir (Route de Porto-Novo)",
     "address_line2": "05 BP 630 Cotonou, République du Bénin",
     "maps_embed_src": "https://www.google.com/maps/embed?pb=!1m3!3m2!1m1!4s16656664199868773893",
     "maps_link": "https://www.google.com/maps/place/Soci%C3%A9t%C3%A9+ASCO+SARL/@6.3624533,2.3971371,17z/data=!3m1!4b1!4m6!3m5!1s0x103cab3cbdbfb90d:0xe7285bd6c824f605!8m2!3d6.3624533!4d2.3971371!16s%2Fg%2F11g0clxgxx",
@@ -85,7 +85,7 @@ add({
     "slug": "index.html",
     "template": "home",
     "title": "Menuiserie Aluminium, Solutions d'Accès & Ouvertures Automatisées",
-    "description": "ASCO Groupe — société africaine basée à Cotonou, spécialiste de la menuiserie aluminium, des solutions d'accès et des ouvertures automatisées. Présente dans 8 pays d'Afrique.",
+    "description": "ASCO Groupe, société africaine basée à Cotonou, spécialiste de la menuiserie aluminium, des solutions d'accès et des ouvertures automatisées. Présente dans 8 pays d'Afrique.",
     "nav_active": "home",
     "hero": {
         "slides": [
@@ -118,7 +118,7 @@ add({
             "title": "ASCO, le partenaire <span>idéal</span> pour vos projets",
             "lead": "ASCO est une société africaine spécialisée dans la menuiserie aluminium, les contrôles d'accès et les systèmes d'ouverture automatisée.",
             "paragraphs": [
-                "Notre ambition est de vous offrir, sur l'ensemble de nos produits et prestations, des ouvrages de fermeture alliant esthétique, sécurité et confort d'ouverture — d'où l'alliance de nos spécialités et la complémentarité de nos gammes de produits.",
+                "Notre ambition est de vous offrir, sur l'ensemble de nos produits et prestations, des ouvrages de fermeture alliant esthétique, sécurité et confort d'ouverture, d'où l'alliance de nos spécialités et la complémentarité de nos gammes de produits.",
                 "Grâce à la mise à jour permanente de nos techniciens et à nos partenariats avec de grandes marques européennes, ASCO s'est imposée comme une société de référence, compétitive à l'échelle nationale et sous-régionale, dans toute l'Afrique.",
             ],
             "bullets": [
@@ -136,9 +136,9 @@ add({
             "title": "Trois expertises, <span>une seule</span> exigence",
             "lead": "Découvrez nos trois familles de produits, conçues pour l'habitat, l'hôtellerie et l'industrie.",
             "cards": [
-                {"image": IMG("hero", "men-alum3.jpg"), "tag": "01 — Menuiserie", "title": "Menuiserie Aluminium", "text": "Fenêtres, portes, vérandas et façades vitrées sur-mesure.", "href": "menuiserie-aluminium.html"},
-                {"image": IMG("hero", "ouvert-auto-1.jpg"), "tag": "02 — Automatisation", "title": "Ouvertures Automatisées", "text": "Portails, portes et barrières motorisés pour tous les usages.", "href": "ouvertures-automatisees.html"},
-                {"image": IMG("solutions-acces", "sol-access-3-.jpg"), "tag": "03 — Sécurité", "title": "Solutions d'Accès", "text": "Serrures, cylindres et contrôle d'accès hôtelier & industriel.", "href": "solutions-dacces.html"},
+                {"image": IMG("hero", "men-alum3.jpg"), "tag": "Menuiserie", "title": "Menuiserie Aluminium", "text": "Fenêtres, portes, vérandas et façades vitrées sur-mesure.", "href": "menuiserie-aluminium.html"},
+                {"image": IMG("hero", "ouvert-auto-1.jpg"), "tag": "Automatisation", "title": "Ouvertures Automatisées", "text": "Portails, portes et barrières motorisés pour tous les usages.", "href": "ouvertures-automatisees.html"},
+                {"image": IMG("solutions-acces", "sol-access-3-.jpg"), "tag": "Sécurité", "title": "Solutions d'Accès", "text": "Serrures, cylindres et contrôle d'accès hôtelier & industriel.", "href": "solutions-dacces.html"},
             ],
         },
         {
@@ -191,8 +191,8 @@ add({
             "title": "Une ambition : des ouvrages qui allient <span>esthétique et sécurité</span>",
             "paragraphs": [
                 "ASCO est une société africaine spécialisée dans la menuiserie aluminium, les contrôles d'accès et les systèmes d'ouverture automatisée.",
-                "Notre ambition est de vous offrir, sur l'ensemble de nos produits et prestations, des ouvrages de fermeture alliant esthétique, sécurité et confort d'ouverture — d'où l'alliance de nos spécialités et la complémentarité de nos gammes de produits.",
-                "Grâce à la mise à jour permanente des compétences de nos techniciens et à nos partenariats avec de grandes marques européennes, ASCO est une société compétitive sur le plan national et sous-régional, centrée sur la satisfaction client et le maintien d'une image forte — une référence qui continue de faire ses preuves dans toute l'Afrique.",
+                "Notre ambition est de vous offrir, sur l'ensemble de nos produits et prestations, des ouvrages de fermeture alliant esthétique, sécurité et confort d'ouverture, d'où l'alliance de nos spécialités et la complémentarité de nos gammes de produits.",
+                "Grâce à la mise à jour permanente des compétences de nos techniciens et à nos partenariats avec de grandes marques européennes, ASCO est une société compétitive sur le plan national et sous-régional, centrée sur la satisfaction client et le maintien d'une image forte, une référence qui continue de faire ses preuves dans toute l'Afrique.",
             ],
             "bullets": [
                 "Trois métiers intégrés : menuiserie aluminium, solutions d'accès, ouvertures automatisées",
@@ -242,7 +242,7 @@ add({
         "image": IMG("divers", "organi-conseils.jpg"),
         "eyebrow": "Nous sommes les meilleurs",
         "title": "Nos services",
-        "lead": "Un accompagnement complet : conseil, installation, formation, maintenance et dépannage — assuré par nos propres techniciens.",
+        "lead": "Un accompagnement complet : conseil, installation, formation, maintenance et dépannage, assurés par nos propres techniciens.",
         "breadcrumb": [("Accueil", "index.html"), ("Services", "services.html")],
     },
     "sections": [
@@ -370,7 +370,7 @@ def men_subpage(slug, title, hero_title, hero_lead, img_dir_items, extra_split=N
     })
     add({
         "slug": slug, "template": "inner", "title": title,
-        "description": f"{title} — menuiserie aluminium ASCO : {hero_lead}",
+        "description": f"{title} : menuiserie aluminium ASCO. {hero_lead}",
         "cat_nav": {**MEN_CAT_NAV, "active": slug},
         "hero": {
             "image": IMG("menuiserie", img_dir_items[0]),
@@ -437,7 +437,7 @@ men_subpage(
 men_subpage(
     "facades.html", "Façades",
     "Les <span>Façades</span>",
-    "Face extérieure d'un bâtiment, la façade peut être réalisée en verre simple, double, triple, armé, feuilleté ou innovant — ASCO vous propose une large gamme selon vos moyens et vos attentes.",
+    "Face extérieure d'un bâtiment, la façade peut être réalisée en verre simple, double, triple, armé, feuilleté ou innovant. ASCO vous propose une large gamme selon vos moyens et vos attentes.",
     ["facade.jpg", "facade1.png", "facade3.jpg", "facade4.jpg"],
     extra_split={
         "type": "split",
@@ -573,7 +573,7 @@ def auto_subpage(slug, title, hero_title, hero_lead, intro_paragraphs, images, r
     })
     add({
         "slug": slug, "template": "inner", "title": title,
-        "description": f"{title} — ouvertures automatisées ASCO. {hero_lead}",
+        "description": f"{title} : ouvertures automatisées ASCO. {hero_lead}",
         "cat_nav": {**AUTO_CAT_NAV, "active": slug},
         "hero": {
             "image": images[0] if images else IMG("hero", "ouvert-auto-3.png"),
@@ -625,7 +625,7 @@ auto_subpage(
     "portes-coulissantes-automatiques.html", "Portes coulissantes automatiques",
     "Portes <span>Coulissantes</span> Automatiques",
     "À usage commercial ou intensif, idéal pour les commerces, supermarchés et bâtiments publics : des opérateurs pour portes coulissantes à un ou deux vantaux mobiles.",
-    ["Longueur maximum de 6 m et poids allant jusqu'à 150 kg par vantail. Selon l'ouverture désirée — centrale ou télescopique rectiligne, 1+1 ou 2+2 vantaux — nous sommes à votre disposition."],
+    ["Longueur maximum de 6 m et poids allant jusqu'à 150 kg par vantail. Selon l'ouverture désirée (centrale ou télescopique rectiligne, 1+1 ou 2+2 vantaux), nous sommes à votre disposition."],
     [IMG("automatisation", "portescoulissantauto3.jpg"), IMG("automatisation", "portescoulissantauto4.jpg")],
     ranges=[
         {"name": "Série DOOR", "tag": "Usage intensif", "text": "Automatisme pour portes coulissantes à usage rapide et intensif."},
@@ -703,7 +703,7 @@ add({
         "image": IMG("hero", "paddedimage723390-serrure.jpg"),
         "eyebrow": "Métier n°3",
         "title": "Les <span>Solutions</span> d'Accès",
-        "lead": "ASCO, le partenaire idéal pour votre sécurité dans la gestion des accès — hôtelier, industriel ou résidentiel.",
+        "lead": "ASCO, le partenaire idéal pour votre sécurité dans la gestion des accès : hôtelier, industriel ou résidentiel.",
         "cta": {"label": "Demander un devis", "href": "contact.html"},
         "breadcrumb": [("Accueil", "index.html"), ("Solutions d'Accès", "solutions-dacces.html")],
     },
@@ -713,7 +713,7 @@ add({
             "eyebrow": "Le partenaire idéal",
             "title": "Pour votre <span>sécurité</span>, personnelle et professionnelle",
             "paragraphs": [
-                "Vous êtes à la recherche d'un partenaire compétent pouvant répondre à vos exigences personnelles et professionnelles de sécurité dans le domaine de la gestion des accès — un partenaire qui comprenne vos besoins, dispose de solutions flexibles et puisse vous suivre partout ? ASCO est ce partenaire, appuyé par un réseau international de sécurité.",
+                "Vous êtes à la recherche d'un partenaire compétent pouvant répondre à vos exigences personnelles et professionnelles de sécurité dans le domaine de la gestion des accès, un partenaire qui comprenne vos besoins, dispose de solutions flexibles et puisse vous suivre partout ? ASCO est ce partenaire, appuyé par un réseau international de sécurité.",
                 "Du secteur hôtelier, para-hôtelier et industriel, qu'ils soient à codes, à cartes ou à empreinte digitale, qu'ils soient de simples clés ou sécurisés à vie : nous proposons une large gamme de cylindres, de batteuses, de cadenas et d'autres produits combinés qui capitalisent et exploitent l'ensemble des informations mises en mémoire pour audit.",
             ],
             "image": IMG("solutions-acces", "sol-access-1-.jpg"),
@@ -793,7 +793,7 @@ add({
     "slug": "coffre-fort.html",
     "template": "inner",
     "title": "Coffres-forts",
-    "description": "Coffres-forts électroniques pour chambres d'hôtel, armoires fortes, coffres de haute sécurité et solutions sur-mesure — ASCO Groupe.",
+    "description": "Coffres-forts électroniques pour chambres d'hôtel, armoires fortes, coffres de haute sécurité et solutions sur-mesure, par ASCO Groupe.",
     "hero": {
         "image": IMG("coffre-fort", "coffre-fort1.jpg"),
         "eyebrow": "Sécurité & confort",
@@ -808,7 +808,7 @@ add({
             "eyebrow": "Conçus pour rassurer",
             "title": "Sécurité, fiabilité et <span>simplicité</span> d'utilisation",
             "paragraphs": [
-                "De nos jours, vos clients — qu'ils soient en voyage d'affaires ou en vacances — ont des biens à protéger : caméscopes, ordinateurs portables, bijoux, documents… Ils s'attendent à trouver un coffre-fort dans leur chambre.",
+                "De nos jours, vos clients, qu'ils soient en voyage d'affaires ou en vacances, ont des biens à protéger : caméscopes, ordinateurs portables, bijoux, documents… Ils s'attendent à trouver un coffre-fort dans leur chambre.",
                 "Les coffres-forts électroniques ASCO sont conçus dans un esprit de sécurité, de fiabilité, de confort et de simplicité d'utilisation, pour sécuriser au maximum les objets de vos clients.",
             ],
             "bullets": [
@@ -859,7 +859,7 @@ add({
     "slug": "contact.html",
     "template": "contact",
     "title": "Contact",
-    "description": "Contactez ASCO Groupe à Cotonou — téléphone, email, WhatsApp ou formulaire de devis. Nous répondons rapidement à votre demande.",
+    "description": "Contactez ASCO Groupe à Cotonou : téléphone, email, WhatsApp ou formulaire de devis. Nous répondons rapidement à votre demande.",
     "hero": {
         "image": IMG("hero", "men-alum4.jpg"),
         "eyebrow": "Parlons de votre projet",
