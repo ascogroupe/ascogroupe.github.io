@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "assets/js/main.js"
+        ],
+        "createdAt": "2026-10-07T10:39:40.643Z",
+        "reason": "lightbox template <img> starts with empty src by design, set dynamically on click, element stays hidden (opacity:0;visibility:hidden) until then — not a rendered broken image"
+      }
+    ]
+  }
+}

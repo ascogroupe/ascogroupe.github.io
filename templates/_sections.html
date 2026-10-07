@@ -157,7 +157,8 @@
 <div class="clients-strip" data-reveal>
   {% for l in s.logos %}
   <div class="client-logo" data-name="{{ l.name }}">
-    <img src="{{ base }}assets/img/clients/{{ l.file }}" alt="{{ l.name }}">
+    <img src="{{ base }}assets/img/clients/{{ l.file }}" alt="{{ l.name }}"
+         onerror="this.onerror=null; this.closest('.client-logo').innerHTML = '&lt;span class=&quot;fallback-word&quot;&gt;{{ l.name }}&lt;/span&gt;';">
   </div>
   {% endfor %}
 </div>

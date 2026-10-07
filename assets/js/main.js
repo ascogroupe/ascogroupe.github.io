@@ -151,16 +151,6 @@
     });
   }
 
-  /* ---------- Client logo graceful fallback ---------- */
-  document.querySelectorAll(".client-logo img").forEach(function (img) {
-    img.addEventListener("error", function () {
-      var wrap = img.closest(".client-logo");
-      if (!wrap) return;
-      var word = wrap.dataset.name || "";
-      wrap.innerHTML = '<span class="fallback-word">' + word + "</span>";
-    });
-  });
-
   /* ---------- Hero slideshow (homepage) ---------- */
   var slides = document.querySelectorAll(".hero-slide");
   if (slides.length > 1) {
