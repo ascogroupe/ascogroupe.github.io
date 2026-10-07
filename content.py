@@ -1,6 +1,6 @@
 """Content data for the ASCO Groupe site. Consumed by build.py."""
 
-SITE_URL = "https://fresnelbusiness.github.io/asco-groupe/"
+SITE_URL = "https://ascogroupe.github.io/"
 
 
 def IMG(cat, name):
