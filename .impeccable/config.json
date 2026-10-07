@@ -11,6 +11,21 @@
         ],
         "createdAt": "2026-10-07T10:39:40.643Z",
         "reason": "lightbox template <img> starts with empty src by design, set dynamically on click, element stays hidden (opacity:0;visibility:hidden) until then — not a rendered broken image"
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-10-07T12:53:35.397Z",
+        "reason": "intentional brand typography for this B2B client site (Poppins/Inter), matches the requested charte graphique, not asked to change"
+      },
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "assets/css/style.css"
+        ],
+        "createdAt": "2026-10-07T12:53:35.404Z",
+        "reason": "header height transition only fires once per scroll-direction crossing (not continuous per-frame animation); a transform-based alternative would require separately counter-scaling the logo/nav content, not worth the complexity for this low-frequency toggle"
       }
     ]
   }
