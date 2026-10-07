@@ -26,6 +26,12 @@
         ],
         "createdAt": "2026-10-07T12:53:35.404Z",
         "reason": "header height transition only fires once per scroll-direction crossing (not continuous per-frame animation); a transform-based alternative would require separately counter-scaling the logo/nav content, not worth the complexity for this low-frequency toggle"
+      },
+      {
+        "rule": "bounce-easing",
+        "value": "hintbounce",
+        "createdAt": "2026-10-07T14:20:01.860Z",
+        "reason": "intentional discovery-hint micro-animation on the nav chevron (user-requested 'click me' cue), not a transition/entrance easing; a smooth exponential easing would remove the bounce look that is the entire point of the hint"
       }
     ]
   }
