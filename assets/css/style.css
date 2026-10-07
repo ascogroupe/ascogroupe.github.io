@@ -679,6 +679,7 @@ h2.section-title span { color: var(--c-primary); }
 .stat-box span { color: rgba(255,255,255,.72); font-size: 0.88rem; }
 
 /* Timeline (services) */
+.timeline-head { position: sticky; top: 120px; }
 .timeline { display: grid; gap: 4px; }
 .timeline-item {
   display: grid; grid-template-columns: 64px 1fr; gap: 22px;
@@ -871,6 +872,7 @@ h2.section-title span { color: var(--c-primary); }
   .pillars .container { grid-template-columns: 1fr; }
   .pillars { margin-top: -60px; }
   .grid-2, .grid-2.reverse { grid-template-columns: 1fr; gap: 34px; direction: ltr; }
+  .timeline-head { position: static; }
   .gallery { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 130px; }
   .gallery .g-item.big { grid-column: span 2; grid-row: span 1; }
   .hero-stats { grid-template-columns: repeat(2, 1fr); row-gap: 20px; }

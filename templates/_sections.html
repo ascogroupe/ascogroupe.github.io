@@ -124,7 +124,7 @@
 
 {% macro _timeline(s) %}
 <div class="grid-2" style="align-items:start;">
-  <div data-reveal style="position:sticky; top:120px;">
+  <div class="timeline-head" data-reveal>
     {% if s.eyebrow %}<div class="eyebrow">{{ s.eyebrow }}</div>{% endif %}
     <h2 class="section-title">{{ s.title | safe }}</h2>
     {% if s.lead %}<p class="section-lead">{{ s.lead }}</p>{% endif %}
