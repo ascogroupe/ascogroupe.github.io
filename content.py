@@ -12,6 +12,8 @@ SITE = {
     "whatsapp": "22921331398",
     "address_line1": "Ilot 6220, Parcelle N — 3è rue après carrefour Abattoir (Route de Porto-Novo)",
     "address_line2": "05 BP 630 Cotonou, République du Bénin",
+    "maps_embed_src": "https://www.google.com/maps/embed?pb=!1m3!3m2!1m1!4s16656664199868773893",
+    "maps_link": "https://www.google.com/maps/place/Soci%C3%A9t%C3%A9+ASCO+SARL/@6.3624533,2.3971371,17z/data=!3m1!4b1!4m6!3m5!1s0x103cab3cbdbfb90d:0xe7285bd6c824f605!8m2!3d6.3624533!4d2.3971371!16s%2Fg%2F11g0clxgxx",
 }
 
 NAV = {

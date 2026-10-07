@@ -53,9 +53,6 @@
       </div>
 
       <div data-reveal>
-        <div class="map-frame" style="height:360px; margin-bottom:24px;">
-          <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=2.393%2C6.355%2C2.423%2C6.375&layer=mapnik" loading="lazy" title="Localisation ASCO Groupe - Cotonou"></iframe>
-        </div>
         <div class="eyebrow">Horaires</div>
         <h2 class="section-title" style="font-size:1.4rem;">Nos équipes vous répondent</h2>
         <ul class="check-list">
@@ -64,6 +61,20 @@
           <li>{{ icon('check') }}<span>Hotline technique aux heures ouvrables pour nos clients sous contrat</span></li>
         </ul>
         <a class="btn btn-outline btn-block" href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">{{ icon('wa') }} Discuter sur WhatsApp</a>
+      </div>
+    </div>
+
+    <div style="margin-top:70px;" data-reveal>
+      <div class="eyebrow">Nous trouver</div>
+      <h2 class="section-title" style="font-size:1.5rem;">Notre localisation à Cotonou</h2>
+      <p class="section-lead" style="margin-bottom:26px;">Siège social ASCO Groupe — Route de Porto-Novo (RNIE 1), à deux pas du carrefour Abattoir. Fiche vérifiée sur Google (5,0 ★).</p>
+      <div class="map-frame" style="height:440px;">
+        <iframe src="{{ site.maps_embed_src }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation ASCO Groupe - Cotonou"></iframe>
+        <div class="badge">{{ icon('pin') }} Siège social ASCO Groupe</div>
+      </div>
+      <div style="margin-top:22px; display:flex; gap:14px; flex-wrap:wrap;">
+        <a class="btn btn-primary" href="{{ site.maps_link }}" target="_blank" rel="noopener">{{ icon('pin') }} Voir sur Google Maps</a>
+        <a class="btn btn-outline" href="https://www.google.com/maps/dir/?api=1&destination=Soci%C3%A9t%C3%A9+ASCO+SARL+Cotonou" target="_blank" rel="noopener">{{ icon('arrow') }} Itinéraire</a>
       </div>
     </div>
   </div>
