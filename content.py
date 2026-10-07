@@ -85,7 +85,7 @@ add({
     "slug": "index.html",
     "template": "home",
     "title": "Menuiserie Aluminium, Solutions d'Accès & Ouvertures Automatisées",
-    "description": "ASCO Groupe, société africaine basée à Cotonou, spécialiste de la menuiserie aluminium, des solutions d'accès et des ouvertures automatisées. Présente dans 8 pays d'Afrique.",
+    "description": "ASCO Groupe, société africaine spécialiste de la menuiserie aluminium, des solutions d'accès et des ouvertures automatisées. Présente dans toute l'Afrique, avec un réseau de partenaires internationaux.",
     "nav_active": "home",
     "hero": {
         "slides": [
@@ -96,12 +96,12 @@ add({
             IMG("hero", "ouvert-auto-4.jpg"),
         ],
         "title": "Plus de <span>design</span>, plus de sécurité, et de bien-être.",
-        "lead": "ASCO Groupe est une société africaine spécialisée dans la menuiserie aluminium, les solutions d'accès et les systèmes d'ouverture automatisée. Depuis Cotonou, nous équipons entreprises, banques, hôtels et résidences dans 8 pays d'Afrique.",
+        "lead": "ASCO Groupe est une société africaine spécialisée dans la menuiserie aluminium, les solutions d'accès et les systèmes d'ouverture automatisée. Nous équipons entreprises, banques, hôtels et résidences à travers l'Afrique et au-delà, appuyés par un réseau de partenaires internationaux.",
         "cta": {"label": "Découvrir nos produits", "href": "menuiserie-aluminium.html"},
         "cta2": {"label": "Qui sommes-nous", "href": "a-propos.html"},
         "stats": [
             {"num": "3", "label": "Métiers complémentaires"},
-            {"num": "8", "label": "Pays desservis en Afrique"},
+            {"num": "Afrique", "label": "Présence régionale, réseau international"},
             {"num": "20+", "label": "Grandes références clients"},
             {"num": "100%", "label": "Installation & SAV locaux"},
         ],
@@ -123,7 +123,7 @@ add({
             ],
             "bullets": [
                 "Techniciens formés en continu, partenaires européens de référence",
-                "Présence commerciale et service après-vente dans 8 pays d'Afrique",
+                "Présence commerciale et service après-vente dans toute l'Afrique, appuyée par un réseau international",
                 "Clients de renom : Novotel, Ibis, Ecobank, Sheraton…",
             ],
             "cta": {"label": "Qui sommes-nous", "href": "a-propos.html"},
@@ -176,12 +176,12 @@ add({
     "slug": "a-propos.html",
     "template": "inner",
     "title": "Qui sommes-nous",
-    "description": "ASCO est une société africaine spécialisée dans la menuiserie aluminium, les contrôles d'accès et les systèmes d'ouverture automatisée, basée à Cotonou.",
+    "description": "ASCO est une société africaine spécialisée dans la menuiserie aluminium, les contrôles d'accès et les systèmes d'ouverture automatisée.",
     "hero": {
         "image": IMG("hero", "men-alum2.jpg"),
         "eyebrow": "Efficacité redoutable",
         "title": "Qui sommes-nous ?",
-        "lead": "Une société africaine, trois expertises complémentaires, un même souci du détail depuis Cotonou.",
+        "lead": "Une société africaine, trois expertises complémentaires, un même souci du détail sur chaque projet.",
         "breadcrumb": [("Accueil", "index.html"), ("À propos", "a-propos.html")],
     },
     "sections": [
@@ -218,7 +218,7 @@ add({
             "title": "Une empreinte <span>panafricaine</span>",
             "stats": [
                 {"num": "3", "label": "Métiers complémentaires"},
-                {"num": "8", "label": "Pays desservis"},
+                {"num": "Afrique", "label": "Présence régionale, réseau international"},
                 {"num": "20+", "label": "Grandes références clients"},
                 {"num": "100%", "label": "SAV & techniciens locaux"},
             ],
