@@ -74,26 +74,9 @@
 
 {% macro _category_grid(s, base) %}
 {{ _head(s) }}
-{% if s.filterable %}
-<div class="catalog-toolbar" data-reveal>
-  <div class="catalog-search">
-    {{ icon('search') }}
-    <input type="text" placeholder="Rechercher un produit (ex. coulissant, vitrage, 230V)…" data-catalog-search aria-label="Rechercher un produit">
-  </div>
-  {% if s.filter_groups %}
-  <div class="catalog-pills" data-catalog-pills>
-    <button type="button" class="catalog-pill is-active" data-filter="all">Tous</button>
-    {% for label, key in s.filter_groups %}
-    <button type="button" class="catalog-pill" data-filter="{{ key }}">{{ label }}</button>
-    {% endfor %}
-  </div>
-  {% endif %}
-</div>
-{% endif %}
-<div class="card-grid {{ 'cols-' ~ s.cols if s.cols else '' }}" {% if s.filterable %}data-catalog-grid{% endif %}>
+<div class="card-grid {{ 'cols-' ~ s.cols if s.cols else '' }}">
   {% for it in s.cards %}
-  <a class="prod-card" href="{{ base }}{{ it.href }}" data-reveal data-reveal-delay="{{ loop.index0 * 60 }}"
-     {% if s.filterable %}data-search="{{ (it.title ~ ' ' ~ (it.text or '')) | lower }}" data-filter-key="{{ it.filter_key or 'all' }}"{% endif %}>
+  <a class="prod-card" href="{{ base }}{{ it.href }}" data-reveal data-reveal-delay="{{ loop.index0 * 60 }}">
     <img src="{{ base }}{{ it.image }}" alt="{{ it.title }}" loading="lazy">
     <span class="arrow-pill">{{ icon('arrow') }}</span>
     <div class="prod-body">
@@ -104,9 +87,6 @@
   </a>
   {% endfor %}
 </div>
-{% if s.filterable %}
-<p class="catalog-empty" data-catalog-empty hidden>Aucun produit ne correspond à votre recherche.</p>
-{% endif %}
 {% endmacro %}
 
 {% macro _gallery(s, base) %}

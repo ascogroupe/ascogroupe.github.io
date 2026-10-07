@@ -163,51 +163,6 @@
     }, 5000);
   }
 
-  /* ---------- Catalog search + filter pills (category pages) ---------- */
-  var normalize = function (str) {
-    return (str || "")
-      .normalize("NFD")
-      .replace(/[̀-ͯ]/g, "")
-      .toLowerCase()
-      .trim();
-  };
-
-  document.querySelectorAll("[data-catalog-grid]").forEach(function (grid) {
-    var toolbar = grid.previousElementSibling;
-    if (!toolbar || !toolbar.classList.contains("catalog-toolbar")) return;
-    var searchInput = toolbar.querySelector("[data-catalog-search]");
-    var pills = Array.prototype.slice.call(toolbar.querySelectorAll(".catalog-pill"));
-    var cards = Array.prototype.slice.call(grid.querySelectorAll(".prod-card"));
-    var emptyMsg = grid.nextElementSibling;
-    if (!emptyMsg || !emptyMsg.hasAttribute("data-catalog-empty")) emptyMsg = null;
-    var activeFilter = "all";
-
-    var applyFilter = function () {
-      var query = normalize(searchInput ? searchInput.value : "");
-      var visibleCount = 0;
-      cards.forEach(function (card) {
-        var matchesSearch = !query || normalize(card.dataset.search).indexOf(query) !== -1;
-        var matchesFilter = activeFilter === "all" || card.dataset.filterKey === activeFilter;
-        var show = matchesSearch && matchesFilter;
-        card.classList.toggle("is-hidden", !show);
-        if (show) visibleCount++;
-      });
-      if (emptyMsg) emptyMsg.hidden = visibleCount > 0;
-    };
-
-    if (searchInput) searchInput.addEventListener("input", applyFilter);
-    pills.forEach(function (pill) {
-      pill.addEventListener("click", function () {
-        pills.forEach(function (p) {
-          p.classList.remove("is-active");
-        });
-        pill.classList.add("is-active");
-        activeFilter = pill.dataset.filter;
-        applyFilter();
-      });
-    });
-  });
-
   /* ---------- Simple contact/devis form -> WhatsApp/email handoff ---------- */
   document.querySelectorAll("form[data-lead-form]").forEach(function (form) {
     form.addEventListener("submit", function (e) {
