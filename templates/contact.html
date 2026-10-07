@@ -15,8 +15,13 @@
       </div>
       <div class="contact-card">
         <div class="feature-icon">{{ icon('phone') }}</div>
-        <h4>Téléphone / Fax</h4>
-        <p><a href="tel:{{ site.phone_tel }}">{{ site.phone_display }}</a><br>Fax : {{ site.fax_display }}</p>
+        <h4>Téléphone</h4>
+        <p><a href="tel:{{ site.phone_tel }}">{{ site.phone_display }}</a> (Bénin)<br><a href="tel:{{ site.phone_togo_tel }}">{{ site.phone_togo_display }}</a> (Togo)<br>Fax : {{ site.fax_display }}</p>
+      </div>
+      <div class="contact-card">
+        <div class="feature-icon">{{ icon('wa') }}</div>
+        <h4>WhatsApp</h4>
+        <p><a href="https://wa.me/{{ site.whatsapp }}" target="_blank" rel="noopener">{{ site.phone_togo_display }}</a></p>
       </div>
       <div class="contact-card">
         <div class="feature-icon">{{ icon('mail') }}</div>

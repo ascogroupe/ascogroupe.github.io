@@ -5,11 +5,13 @@ def IMG(cat, name):
 
 SITE = {
     "name": "ASCO Groupe",
-    "phone_display": "+229 21 33 13 98",
-    "phone_tel": "+22921331398",
+    "phone_display": "+229 95 95 99 99",
+    "phone_tel": "+22995959999",
+    "phone_togo_display": "+228 90 22 99 99",
+    "phone_togo_tel": "+22890229999",
     "fax_display": "+229 21 37 74 70",
     "email": "info@asco-groupe.com",
-    "whatsapp": "22921331398",
+    "whatsapp": "22890229999",
     "address_line1": "Ilot 6220, Parcelle N — 3è rue après carrefour Abattoir (Route de Porto-Novo)",
     "address_line2": "05 BP 630 Cotonou, République du Bénin",
     "maps_embed_src": "https://www.google.com/maps/embed?pb=!1m3!3m2!1m1!4s16656664199868773893",
@@ -164,7 +166,7 @@ add({
             "title": "Un projet à sécuriser ou à moderniser ?",
             "text": "Nos équipes étudient votre demande et vous recontactent rapidement.",
             "primary": {"label": "Demander un devis", "href": "contact.html"},
-            "secondary": {"label": "Appeler maintenant", "href": "tel:+22921331398"},
+            "secondary": {"label": "Appeler maintenant", "href": "tel:+22995959999"},
         },
     ],
 })
