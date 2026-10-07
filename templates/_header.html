@@ -1,0 +1,97 @@
+{% from "_icons.html" import icon %}
+<header class="site-header {{ 'is-solid' if solid_header else 'is-transparent' }}" data-solid="{{ 'true' if solid_header else 'false' }}">
+  <div class="container">
+    <a href="{{ base }}index.html" class="brand">
+      <img src="{{ base }}assets/img/brand/logo.png" alt="ASCO Groupe">
+    </a>
+
+    <nav class="main-nav">
+      <ul>
+        <li class="nav-item"><a class="nav-link" href="{{ base }}index.html">Accueil</a></li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ base }}menuiserie-aluminium.html">Produits {{ icon('chev','chev') }}</a>
+          <div class="mega mega-wide">
+            <div class="mega-col">
+              <div class="mega-col-title">{{ icon('window') }} <a href="{{ base }}menuiserie-aluminium.html">Menuiserie Aluminium</a></div>
+              <div class="mega-links">
+                {% for label, href in nav.menuiserie %}
+                <a href="{{ base }}{{ href }}"><span class="dot"></span>{{ label }}</a>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">{{ icon('gate') }} <a href="{{ base }}ouvertures-automatisees.html">Ouvertures Automatisées</a></div>
+              <div class="mega-links">
+                {% for label, href in nav.automatisation %}
+                <a href="{{ base }}{{ href }}"><span class="dot"></span>{{ label }}</a>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="mega-col">
+              <div class="mega-col-title">{{ icon('key') }} <a href="{{ base }}solutions-dacces.html">Solutions d'Accès</a></div>
+              <div class="mega-links">
+                {% for label, href in nav.acces %}
+                <a href="{{ base }}{{ href }}"><span class="dot"></span>{{ label }}</a>
+                {% endfor %}
+                <a href="{{ base }}coffre-fort.html"><span class="dot"></span>Coffres-forts</a>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="{{ base }}services.html">Services &amp; Références</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ base }}a-propos.html">À propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ base }}contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-cta">
+      <a class="header-phone" href="tel:{{ site.phone_tel }}">{{ icon('phone') }} {{ site.phone_display }}</a>
+      <a class="btn btn-primary btn-sm" href="{{ base }}contact.html">Demander un devis</a>
+      <button class="burger" aria-label="Ouvrir le menu"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-drawer">
+  <div class="drawer-backdrop"></div>
+  <div class="drawer-panel">
+    <div class="drawer-head">
+      <img src="{{ base }}assets/img/brand/logo.png" alt="ASCO Groupe" style="height:32px; width:auto;">
+      <button class="drawer-close" aria-label="Fermer">{{ icon('close') }}</button>
+    </div>
+    <nav class="drawer-nav">
+      <a class="top-link" href="{{ base }}index.html">Accueil</a>
+      <details>
+        <summary>Menuiserie Aluminium {{ icon('chev','chev') }}</summary>
+        <div class="drawer-sub">
+          <a href="{{ base }}menuiserie-aluminium.html">Vue d'ensemble</a>
+          {% for label, href in nav.menuiserie %}<a href="{{ base }}{{ href }}">{{ label }}</a>{% endfor %}
+        </div>
+      </details>
+      <details>
+        <summary>Ouvertures Automatisées {{ icon('chev','chev') }}</summary>
+        <div class="drawer-sub">
+          <a href="{{ base }}ouvertures-automatisees.html">Vue d'ensemble</a>
+          {% for label, href in nav.automatisation %}<a href="{{ base }}{{ href }}">{{ label }}</a>{% endfor %}
+        </div>
+      </details>
+      <details>
+        <summary>Solutions d'Accès {{ icon('chev','chev') }}</summary>
+        <div class="drawer-sub">
+          <a href="{{ base }}solutions-dacces.html">Vue d'ensemble</a>
+          {% for label, href in nav.acces %}<a href="{{ base }}{{ href }}">{{ label }}</a>{% endfor %}
+          <a href="{{ base }}coffre-fort.html">Coffres-forts</a>
+        </div>
+      </details>
+      <a class="top-link" href="{{ base }}services.html">Services &amp; Références</a>
+      <a class="top-link" href="{{ base }}a-propos.html">À propos</a>
+      <a class="top-link" href="{{ base }}contact.html">Contact</a>
+    </nav>
+    <div class="drawer-foot">
+      <a class="btn btn-primary btn-block" href="{{ base }}contact.html">Demander un devis</a>
+      <a class="btn btn-outline btn-block" href="tel:{{ site.phone_tel }}">{{ icon('phone') }} {{ site.phone_display }}</a>
+    </div>
+  </div>
+</div>

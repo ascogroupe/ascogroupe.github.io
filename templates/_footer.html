@@ -1,0 +1,52 @@
+{% from "_icons.html" import icon %}
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="{{ base }}assets/img/brand/logo.png" alt="ASCO Groupe" style="height:40px; width:auto;">
+        <p>Société africaine spécialisée dans la menuiserie aluminium, les solutions d'accès et les systèmes d'ouverture automatisée — basée à Cotonou, présente dans 8 pays d'Afrique.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Produits</h5>
+        <ul>
+          <li><a href="{{ base }}menuiserie-aluminium.html">Menuiserie Aluminium</a></li>
+          <li><a href="{{ base }}ouvertures-automatisees.html">Ouvertures Automatisées</a></li>
+          <li><a href="{{ base }}solutions-dacces.html">Solutions d'Accès</a></li>
+          <li><a href="{{ base }}coffre-fort.html">Coffres-forts</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Entreprise</h5>
+        <ul>
+          <li><a href="{{ base }}a-propos.html">Qui sommes-nous</a></li>
+          <li><a href="{{ base }}services.html">Nos services</a></li>
+          <li><a href="{{ base }}services.html#references">Références clients</a></li>
+          <li><a href="{{ base }}contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul class="footer-contact">
+          <li>{{ icon('pin') }} {{ site.address_line1 }}<br>{{ site.address_line2 }}</li>
+          <li>{{ icon('phone') }} <a href="tel:{{ site.phone_tel }}">{{ site.phone_display }}</a></li>
+          <li>{{ icon('mail') }} <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; <span id="y">2026</span> ASCO Groupe — Tous droits réservés.</span>
+      <span class="made">Cotonou, République du Bénin</span>
+    </div>
+  </div>
+</footer>
+
+<div class="fab-stack">
+  <a class="fab fab-whatsapp" href="https://wa.me/{{ site.whatsapp }}?text=Bonjour%20ASCO%2C%20je%20souhaite%20un%20devis." target="_blank" rel="noopener" aria-label="Discuter sur WhatsApp">{{ icon('wa') }}</a>
+  <button class="fab fab-top" aria-label="Haut de page">{{ icon('up') }}</button>
+</div>
+
+<script src="{{ base }}assets/js/main.js"></script>
