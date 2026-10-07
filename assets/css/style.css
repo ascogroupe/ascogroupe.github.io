@@ -870,7 +870,10 @@ h2.section-title span { color: var(--c-primary); }
   .main-nav, .header-phone { display: none; }
   .burger { display: flex; }
   .pillars .container { grid-template-columns: 1fr; }
-  .pillars { margin-top: -60px; }
+  .pillars { margin-top: 28px; }
+  .hero-scroll { display: none; }
+  .hero { min-height: auto; padding-bottom: 60px; }
+  .hero-content { padding-bottom: 20px; }
   .grid-2, .grid-2.reverse { grid-template-columns: 1fr; gap: 34px; direction: ltr; }
   .timeline-head { position: static; }
   .gallery { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 130px; }
